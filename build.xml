@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="jhoEdu-Quizze" default="main">
+
+	<target name="main" unless="done">
+		<echo message="Jetzt geht's los." />
+		<copy todir="${user.home}/.local/lib">
+			<fileset dir="." includes="*.lua" />
+		</copy>
+		<property name="done" value="done" />
+	</target>
+
+
+	<target name="test" unless="done">
+		<exec executable="ypp" output="0_TMP/${ant.project.name}.md">
+			<arg line="-l jhomarkup.lua -l html5.lua -l ModeSlides.lua TestText.md" />
+		</exec>
+		<property name="done" value="done" />
+	</target>
+</project>
