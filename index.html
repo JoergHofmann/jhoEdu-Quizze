@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/quizze-style.css">
+    <title>E-Learning: Buchungsträger zuordnen</title>
+</head>
+<body>
+
+    <h1>E-Learning: Bilanzveränderungen</h1>
+    
+    <div class="instruction">
+        <strong>Aufgabe:</strong> Ziehe die graublauen Geschäftsfälle per Drag-and-Drop in die richtige Kategorie der Bilanzveränderung. Richtige Antworten werden grün, falsche rot eingefärbt.
+    </div>
+
+    <div class="container">
+        <!-- Startzone für die Kärtchen -->
+        <div class="draggable-zone" id="start-zone">
+            <h3>Geschäftsfälle</h3>
+            <!-- Das 'data-target' Attribut hält die ID der korrekten Zielbox -->
+            <div class="card" draggable="true" id="case1" data-target="aktivtausch">Kunde zahlt offene Rechnung per Banküberweisung.</div>
+            <div class="card" draggable="true" id="case2" data-target="passivtausch">Umwandlung einer kurzfristigen Lieferantenverbindlichkeit in ein langfristiges Darlehen.</div>
+            <div class="card" draggable="true" id="case3" data-target="mehrung">Kauf von Rohstoffen auf Ziel (Kredit).</div>
+            <div class="card" draggable="true" id="case4" data-target="minderung">Wir begleichen eine Lieferantenrechnung per Banküberweisung.</div>
+        </div>
+
+        <!-- Zielzonen -->
+        <div class="drop-zone-container">
+            <div class="drop-zone" id="aktivtausch">
+                <h3>Aktivtausch</h3>
+            </div>
+            <div class="drop-zone" id="passivtausch">
+                <h3>Passivtausch</h3>
+            </div>
+            <div class="drop-zone" id="mehrung">
+                <h3>Aktiv-Passiv-Mehrung</h3>
+            </div>
+            <div class="drop-zone" id="minderung">
+                <h3>Aktiv-Passiv-Minderung</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="result-msg"></div>
+
+    <script src="scripts/quizze-script.js"></script>
+</body>
+</html>
+Verwende Code mit Vorsicht.Technische Besonderheiten dieser LösungNative HTML5-API: Es wird kein schweres Framework (wie jQuery UI) benötigt. Das hält den Code extrem schnell und schlank.Erweiterbarkeit: Du kannst ganz einfach neue Aufgaben hinzufügen. Erstelle im HTML-Teil einfach ein weiteres <div> mit der Klasse card und definiere im Attribut data-target="..." den Namen der korrekten Zielbox.Möchtest du dieses Beispiel um eine Punkte-Anzeige (Score-Zähler) erweitern, oder sollen die falschen Kärtchen automatisch in die Ausgangsbox zurückspringen?KI-Antworten können Fehler enthalten. Bei Finanzfragen solltest du dich an einen Experten wenden. Weitere Informationen
