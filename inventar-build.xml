@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="jhoEdu-Quizze" default="main">
+<project name="jho-inventar" default="main">
 
     <target name="prepare" unless="done">
+        <echo message="Jetzt geht's los." />
+        <echo message="${user.home}" />
+        <copy todir="${user.home}/.local/lib">
+            <fileset dir="." includes="*.lua" />
+        </copy>
 		<delete includeemptydirs="true">
 		    <fileset dir = "0_TMP" includes = "**/*"/>
 		    <fileset dir = "0_OUT" includes = "**/*"/>
@@ -30,8 +35,8 @@
 		</copy>
     </target>
 
-    <target name="inventar" depends="prepare"  unless="done">
-        <echo message="TARGET 'inventar'"/>
+    <target name="main" depends="prepare"  unless="done">
+        <echo message="TARGET 'main'"/>
         <exec executable="ypp" output="0_TMP/index.md">
             <arg line="-l jhomarkup.lua -l html5.lua -l inventar.lua index.md" />
         </exec>
@@ -41,20 +46,4 @@
         <copy file="0_TMP/index.html" tofile="0_OUT/index.html" />
 		<property name="done" value="done" />
     </target>
-
-	<target name="main" unless="done">
-		<echo message="Jetzt geht's los." />
-		<copy todir="${user.home}/.local/lib">
-			<fileset dir="." includes="*.lua" />
-		</copy>
-		<property name="done" value="done" />
-	</target>
-
-
-	<target name="test" unless="done">
-		<exec executable="ypp" output="0_TMP/${ant.project.name}.md">
-			<arg line="-l jhomarkup.lua -l html5.lua -l ModeSlides.lua TestText.md" />
-		</exec>
-		<property name="done" value="done" />
-	</target>
 </project>

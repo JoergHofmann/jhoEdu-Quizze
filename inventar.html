@@ -1,0 +1,88 @@
+<section id="{{AgId}}" class="invListe">
+<form id="f{{AgId}}" name="f{{AgId}}">
+<div class="kopfzeile">
+<span class="bezeichnung">Bezeichung</span>
+<span class="menge">Menge</span>
+<span class="zahlenspalte">Wert</span>
+<span class="zahlenspalte">Gesamt</span>
+<span class="menge">Ergebnis</span>
+</div>
+<div id="{{AgId}}_inv0" data-rang="1" class="list-element" draggable = "true">
+<span class="bezeichnung">Vermögen</span>
+<span class="menge"></span>
+<span class="zahlenspalte"></span>
+<span class="zahlenspalte"></span>
+<span id="{{AgId}}_kor0" class="frage"> </span>
+</div>
+<div id="{{AgId}}_inv1" data-rang="2" class="list-element" draggable = "true">
+<span class="bezeichnung">Anlagevermögen</span>
+<span class="menge"></span> 
+<span class="zahlenspalte"></span>
+<span class="zahlenspalte"></span>
+<span id="{{AgId}}_kor1" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv2" data-rang="{{RangHeaderUV}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Umlaufvermögen</span>
+<span class="menge"></span>
+<span class="zahlenspalte"></span>
+<span class="zahlenspalte"></span>
+<span id="{{AgId}}_kor2" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv3" data-rang="{{RangHeaderSchulden}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Schulden</span>
+<span class="menge"></span>
+<span class="zahlenspalte"></span>
+<span class="zahlenspalte"></span>
+<span id="{{AgId}}_kor3" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv4" data-rang="{{RangReinvermoegen}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Reinvermögen</span>
+<span class="menge"> </span>
+<span class="zahlenspalte"> </span>
+<span class="zahlenspalte"><input draggable="true" id="Reinvermoegen" name="Reinvermoegen" class="eingabe" type="text"/></span>
+<span id="{{AgId}}_kor4" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv5" data-rang="{{RangSummeVermoegen}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Summe Vermögen</span>
+<span class="menge"> </span>
+<span class="zahlenspalte"> </span>
+<span class="zahlenspalte"><input draggable="true" id="SummeVermoegen" name="SummeVermoegen" class="eingabe" type="text"/></span>
+<span id="{{AgId}}_kor5" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv6" data-rang="{{RangSummeAV}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Summe Anlagevermögen</span>
+<span class="menge"></span>
+<span class="zahlenspalte"> </span>
+<span class="zahlenspalte"><input draggable="true" id="SummeAV" name="SummeAV" class="eingabe" type="text"/></span>
+<span id="{{AgId}}_kor6" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv7" data-rang="{{RangSummeUV}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Summe Umlaufvermögen</span>
+<span class="menge"> </span>
+<span class="zahlenspalte"> </span>
+<span class="zahlenspalte"><input draggable="true" id="SummeUV" name="SummeUV" class="eingabe" type="text"/></span>
+<span id="{{AgId}}_kor7" class="korrektur"></span>
+</div>
+<div id="{{AgId}}_inv8" data-rang="{{RangSummeSchulden}}" class="list-element" draggable = "true">
+<span class="bezeichnung">Summe Schulden</span>
+<span class="menge"> </span>
+<span class="zahlenspalte"> </span>
+<span class="zahlenspalte"><input draggable="true" id="SummeSchulden" name="SummeSchulden" class="eingabe" type="text"/></span>
+<span id="{{AgId}}_kor8" class="korrektur"></span>
+</div>
+{{#inventar}}
+<div id="{{AgId}}_inv{{Index}}" data-rang="{{Rang}}" data-wert="{{dataWert}}" data-menge="{{dataMenge}}" class="list-element" draggable = "true">
+<span class="bezeichnung">{{Bezeichnung}}</span>
+<span class="menge">{{Menge}}</span>
+<span class="zahlenspalte">{{Wert}}</span>
+<span class="zahlenspalte">{{Gesamt}}</span>
+<span id="{{AgId}}_kor{{Index}}" class="korrektur"></span>
+</div>
+{{/inventar}}
+<div class="fusszeile">
+<button type="button" id="pruefen">Prüfen</button>
+<button type="button" id="neu">Neu</button>
+<span id="{{AgId}}_Auswertung" class="auswertung"></span>
+</div>
+</form>
+</section>

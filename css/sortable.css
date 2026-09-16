@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	background-color: white;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	}
+
+.container {
+	padding: 1rem;
+	margin-top: 1rem;
+	}
+
+.listen-element {
+	margin: 0;
+	padding: 0;
+	margin-top: 0.5rem;
+	padding: 1rem;
+	background-color: lightblue;
+	color: black;
+	border: 2px solid blue;
+	}
+
+.my-handle {
+	width: 2rem;
+	height: 2rem;
+	margin: 0 2rem 0 0;
+	cursor: move;
+	}
+
+.listen-element.sortable-ghost {
+	color: red;
+	}
+
+.kopfzeile {
+	background-color: white;
+	font-weight: bolder;
+	border-bottom: medium solid blue;
+	}
+
+.bezeichnung {
+   display: inline-block;
+   min-width: 30em;
+   }
+
+.menge {
+   display: inline-block;
+   min-width: 4em;
+   text-align: right;
+   }
+
+.korrektur {
+   display: inline-block;
+   min-width: 4em;
+   text-align: right;
+   }
+
+.zahlenspalte {
+   display: inline-block;
+   min-width: 12em;
+   text-align: right;
+   }

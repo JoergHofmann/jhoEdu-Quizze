@@ -1,0 +1,14 @@
+contextlang: "de"
+lang: "de-DE"
+shortlang: "de"
+Autor:
+hugo:
+    theme: "hugo-book"
+    themeURL: "github.com/alex-shpak/hugo-book"
+    baseURL: "https://pecunia-non-olet.com"
+title: "Testumgebung für Aufgaben/Quizze"
+pagetitle: "Aufgaben/Quizze"
+shorttitle: "Aufgaben/Quizze"
+pdfCover: "lager.svg"
+wwwCover: "lager.svg"
+Rechtstand: "2026"

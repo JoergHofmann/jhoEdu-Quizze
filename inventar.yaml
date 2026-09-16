@@ -1,0 +1,382 @@
+---
+id: "ag10001"
+inventar:
+        RangSummeAV: 8
+        RangHeaderUV: 9
+        RangSummeUV: 15
+        RangSummeVermoegen: 16
+        RangHeaderSchulden: 17
+        RangSummeSchulden: 22
+        RangReinvermoegen: 23
+        Vermoegen:
+                Anlagevermoegen:
+                        -
+                          Bezeichnung: "Grundstück, Speiergarten 13, 65191 Wiesbaden"
+                          dataMenge: 1
+                          Rang: 3
+                          dataWert: 55329
+                          VS: "v"
+                          AvUv: "a"  
+                          Konto: "0085"
+                        - 
+                          Bezeichnung: "Gebäude, Speiergarten 13, 65191 Wiesbaden"
+                          dataMenge: 1
+                          Rang: 4
+                          dataWert: 1324566
+                          VS: "v"  
+                          AvUv: "a"
+                          Konto: "0090"       
+                        - 
+                          Bezeichnung: "Ätzbad für Platinen"
+                          dataMenge: 2
+                          Rang: 5
+                          dataWert: 1940
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0200"       
+                        - 
+                          Bezeichnung: "Lötautomat"
+                          dataMenge: 4
+                          Rang: 5
+                          dataWert: 2890
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0200"       
+                        - 
+                          Bezeichnung: "UV-Belichter für Platinen"
+                          dataMenge: 1
+                          Rang: 5
+                          dataWert: 2320
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0200"       
+                        - 
+                          Bezeichnung: "PKW WI-DM 987"
+                          dataMenge: 1
+                          Rang: 6
+                          dataWert: 1
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0320"        
+                        - 
+                          Bezeichnung: "PKW WI-FS 987"
+                          dataMenge: 1
+                          Rang: 6
+                          dataWert: 1
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0320"        
+                        - 
+                          Bezeichnung: "PKW WI-SD 987"
+                          dataMenge: 1
+                          Rang: 6
+                          dataWert: 1
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0320"        
+                        - 
+                          Bezeichnung: "Transporter WI-RP 987"
+                          dataMenge: 1
+                          Rang: 6
+                          dataWert: 67800
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0320"        
+                        - 
+                          Bezeichnung: "Aktenschränke"
+                          dataMenge: 12
+                          Rang: 7
+                          dataWert: 680
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0420"       
+                        - 
+                          Bezeichnung: "Buchhaltungsprogramm"
+                          dataMenge: 1
+                          Rang: 7
+                          dataWert: 1645
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "EDV-Software"        
+                        - 
+                          Bezeichnung: "Kassenterminal"
+                          dataMenge: 2
+                          Rang: 7
+                          dataWert: 879
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0425"        
+                        - 
+                          Bezeichnung: "PC-Arbeitsplatz"
+                          dataMenge: 4
+                          Rang: 7
+                          dataWert: 620
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0027 "        
+                        - 
+                          Bezeichnung: "Regale, Verkaufsraum"
+                          dataMenge: 6
+                          Rang: 7
+                          dataWert: 320
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0430"        
+                        - 
+                          Bezeichnung: "Rollcontainer"
+                          dataMenge: 4
+                          Rang: 7
+                          dataWert: 180
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0420"        
+                        - 
+                          Bezeichnung: "Schreibtische"
+                          dataMenge: 4
+                          Rang: 7
+                          dataWert: 170
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0420"        
+                        - 
+                          Bezeichnung: "Schreibtischstühle „Rückenfreund“"
+                          dataMenge: 4
+                          Rang: 7
+                          dataWert: 260
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0420"        
+                        - 
+                          Bezeichnung: "Server"
+                          dataMenge: 1
+                          Rang: 7
+                          dataWert: 2100
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0425"        
+                        - 
+                          Bezeichnung: "Verkaufstheke"
+                          dataMenge: 1
+                          Rang: 7
+                          dataWert: 570
+                          VS: "v"  
+                          AvUv: "a"  
+                          Konto: "0430"        
+                Umlaufvermoegen:
+                        -
+                          Bezeichnung: "Festposten Kleinteile"
+                          dataMenge: 1
+                          Rang: 10
+                          dataWert: 540
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Gehäuse „Chip“"
+                          dataMenge: 17
+                          Rang: 10
+                          dataWert: 43
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Gehäuse „Röhre 1“"
+                          dataMenge: 22
+                          Rang: 10
+                          dataWert: 91
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Gehäuse „Röhre 2“"
+                          dataMenge: 18
+                          Rang: 10
+                          dataWert: 89
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Leerplatinen"
+                          dataMenge: 60
+                          Rang: 10
+                          dataWert: 4.3
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Röhren RD2"
+                          dataMenge: 130
+                          Rang: 10
+                          dataWert: 2.1
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Verstärker-Chip QWR23"
+                          dataMenge: 171
+                          Rang: 10
+                          dataWert: 0.9
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3970"        
+                        - 
+                          Bezeichnung: "Stereoverstärker „Chip“"
+                          dataMenge: 15
+                          Rang: 11
+                          dataWert: 345
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3981"        
+                        - 
+                          Bezeichnung: "Stereoverstärker „Röhre 1“"
+                          dataMenge: 8
+                          Rang: 11
+                          dataWert: 1830
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3981"        
+                        - 
+                          Bezeichnung: "Stereoverstärker „Röhre 2“"
+                          dataMenge: 6
+                          Rang: 11
+                          dataWert: 2015
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3981"        
+                        - 
+                          Bezeichnung: "CD-Player „Scheibenmann“"
+                          dataMenge: 8
+                          Rang: 11
+                          dataWert: 322.1
+                          VS: "V"  
+                          AvUv: "U"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "CD-Player, portable"
+                          dataMenge: 4
+                          Rang: 11
+                          dataWert: 22.7
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "Digitaltuner „Äther“"
+                          dataMenge: 3
+                          Rang: 11
+                          dataWert: 566.9
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "Kopfhörer"
+                          dataMenge: 9
+                          Rang: 11
+                          dataWert: 69.5
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "Plattenspieler „old school“"
+                          dataMenge: 10
+                          Rang: 11
+                          dataWert: 755.4
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "Regalboxen RB4711"
+                          dataMenge: 7
+                          Rang: 11
+                          dataWert: 145.3
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"        
+                        - 
+                          Bezeichnung: "Standbox SB0815"
+                          dataMenge: 14
+                          Rang: 11
+                          dataWert: 321.45
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "3980"       
+                        - 
+                          Bezeichnung: "Forderungen LuL"
+                          dataMenge: 1
+                          Rang: 12
+                          dataWert: 67340
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "Forderungen LuL"        
+                        - 
+                          Bezeichnung: "Kasse Büro"
+                          dataMenge: 1
+                          Rang: 13
+                          dataWert: 1150
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "1000"        
+                        - 
+                          Bezeichnung: "Wechselgeld, Kasse 1"
+                          dataMenge: 1
+                          Rang: 13
+                          dataWert: 800
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "1001"       
+                        - 
+                          Bezeichnung: "Wechselgeld, Kasse 2"
+                          dataMenge: 1
+                          Rang: 13
+                          dataWert: 550
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "1002"        
+                        - 
+                          Bezeichnung: "Nassauische Sparkasse, 654 332 116"
+                          dataMenge: 1
+                          Rang: 14
+                          dataWert: 21500
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "1200"        
+                        - 
+                          Bezeichnung: "Postbank AG, 445 332 100"
+                          dataMenge: 1
+                          Rang: 14
+                          dataWert: 7550
+                          VS: "v"  
+                          AvUv: "u"  
+                          Konto: "1210"       
+        Schulden:
+                - 
+                  Bezeichnung: "Hypothekendarlehen, Nassauische Sparkasse, 876 345 222"
+                  dataMenge: 1
+                  Rang: 18
+                  dataWert: 730960
+                  VS: "s"  
+                  AvUv: ""  
+                  Konto: "0650"       
+                -
+                  Bezeichnung: "Darlehen, Nassauische Sparkasse, 876 345 371"
+                  dataMenge: 1
+                  Rang: 19
+                  dataWert: 176500
+                  VS: "s"  
+                  AvUv: ""  
+                  Konto: "0640"        
+                - 
+                  Bezeichnung: "Umsatzsteuer Vorjahr"
+                  dataMenge: 1
+                  Rang: 21
+                  dataWert: 3210
+                  VS: "s"  
+                  AvUv: ""  
+                  Konto: "1790"        
+                - 
+                  Bezeichnung: "Verbindlichkeiten LuL"
+                  dataMenge: 1
+                  Rang: 20
+                  dataWert: 43785
+                  VS: "s"  
+                  AvUv: ""  
+                  Konto: "1600"        
